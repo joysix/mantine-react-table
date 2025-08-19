@@ -27,6 +27,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES6",    "verbatimModuleSyntax": true,
+    "isolatedModules": true
   },
   "references": [
     {
