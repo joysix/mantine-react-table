@@ -6,7 +6,6 @@ import {
   MultiSelect,
   Select,
   TextInput,
-  packSx,
   type MantineTheme,
   Badge,
 } from '@mantine/core';
@@ -309,15 +308,13 @@ export const MRT_FilterTextInput = <TData extends Record<string, any> = {}>({
       '& .mantine-DateInput-input': {
         height: '2.1rem',
       },
-      ...(packSx(
-        isMultiSelectFilter
-          ? multiSelectProps.sx
-          : isSelectFilter
-          ? selectProps.sx
-          : isDateFilter
-          ? dateInputProps.sx
-          : textInputProps?.sx,
-      ) as any),
+      ...(isMultiSelectFilter
+      ? multiSelectProps?.style
+      : isSelectFilter
+        ? selectProps?.style
+        : isDateFilter
+          ? dateInputProps?.style
+          : textInputProps?.style),
     }),
   } as const;
 
