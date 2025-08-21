@@ -81,6 +81,7 @@
     "@storybook/react": "^7.4.6",
     "@storybook/react-vite": "^7.4.6",
     "@storybook/testing-library": "^0.2.2",
+    "@storybook/types": "^8.6.14",
     "@tabler/icons-react": "2.38.0",
     "@types/node": "^20.8.3",
     "@types/react": "^18.2.25",
@@ -107,7 +108,6 @@
     "vite": "^4.4.11"
   },
   "dependencies": {
-    "@storybook/types": "^8.6.14",
     "@tanstack/match-sorter-utils": "8.8.4",
     "@tanstack/react-table": "8.10.6",
     "@tanstack/react-virtual": "3.0.0-beta.63"
