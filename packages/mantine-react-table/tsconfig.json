@@ -27,7 +27,8 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES6",
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": true,
+    "importsNotUsedAsValues": "preserve",
   },
   "references": [
     {

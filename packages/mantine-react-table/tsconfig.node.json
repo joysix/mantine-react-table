@@ -4,6 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "verbatimModuleSyntax": true,
+    "importsNotUsedAsValues": "preserve",
   },
   "include": ["vite.config.ts"]
 }
